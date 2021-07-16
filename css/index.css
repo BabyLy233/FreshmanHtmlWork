@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#hero {
+  background-image: url(../img/ccit_hero.jpg);
+  background-size: cover;
+  height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgb(255 255 255 / 70%);
+}
+
+.hero-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-table-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-icon {
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  font-size: 40px;
+  animation: bounce 2s infinite;
+}
+
+.hero-icon-animation {
+  transition: all 0.5s;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.sub-title {
+  color: #212529;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-left: 70px;
+  position: relative;
+}
+
+.introduce-text {
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+#skills {
+  margin-bottom: 40px;
+}
+
+.skill-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.skill-title {
+  position: absolute;
+  top: -28px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.skill-percent {
+  position: absolute;
+  font-weight: 500;
+  bottom: 20px;
+  right: 0;
+  font-size: 14px;
+}
+
+.pg-h {
+  height: 0.4rem;
+}
+
+.card-icon {
+  margin-top: -2rem;
+  font-size: 2.25rem;
+}
+
+.ct {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.card {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.card h6 {
+  color: #6c757d;
+}
+
+.card:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 123, 255);
+  box-shadow: none !important;
+}
+
+.card:hover i,
+.card:hover h5,
+.card:hover p,
+.card:hover h6 {
+  transition: 0.5s;
+  color: white;
+}
+
+.team-box {
+  position: relative;
+}
+
+.box-t {
+  position: absolute;
+}
+
+.box-c {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  transition: 0.5s;
+}
+
+.box-co {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 1s;
+}
+
+.title {
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2rem;
+  display: none;
+}
+
+.tp {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  display: none;
+}
+
+.wi {
+  font-size: 3rem;
+}
+
+.work-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.news-img img:hover {
+  transform: scale(1.1);
+  transition: all 1s ease 0s;
+}
+
+.news-img img {
+  transform: scale(1);
+  transition: all 1s ease 0s;
+}
+
+#footer {
+  background-color: rgb(17, 17, 17);
+}
+
+#footer .logo span {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-dark {
+  color: #fff;
+}
+
+#nav .active a {
+  color: rgb(0, 123, 255);
+}
+
+#nav ul li:hover a{
+  color: rgb(0, 123, 255);
+  transition: .5s ease;
+}
